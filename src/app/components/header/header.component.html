@@ -1,0 +1,46 @@
+<header class="header">
+  <div class="container">
+    <span class="logo">
+      < C /> <span>Chika.dev</span>
+    </span>
+
+    <nav class="navbar" [ngClass]="{toggled: isToggled}">
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a href="#home" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#blogs" class="nav-link">Blogs</a>
+        </li>
+      </ul>
+
+      <div class="input-container">
+        <input type="search" placeholder="Search..." class="input">
+        <i class="ri-search-line"></i>
+      </div>
+
+      <ul class="socials-link">
+        <li class="social-link">
+          <a href="#">
+            <i class="ri-instagram-line"></i>
+            <span class="label">Instagram</span>
+          </a>
+        </li>
+        <li class="social-link">
+          <a href="#">
+            <i class="ri-linkedin-fill"></i>
+            <span class="label">Linkedin</span>
+          </a>
+        </li>
+        <li class="social-link">
+          <a href="#">
+            <i class="ri-github-fill"></i>
+            <span class="label">Github</span>
+          </a>
+        </li>
+      </ul>
+      <span class="closeMenu" (click)="toggleMenu()"><i class="ri-close-fill"></i></span>
+    </nav>
+    <span class="openMenu" (click)="toggleMenu()"><i class="ri-menu-line"></i></span>
+  </div>
+</header>

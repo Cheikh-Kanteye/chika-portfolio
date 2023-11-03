@@ -1,4 +1,24 @@
-# ChikaPortfolio
+# Chika's Portfolio
+
+Bienvenue sur mon portfolio personnel, développé avec Angular, pour présenter mes projets, compétences et expériences.
+
+## Introduction
+
+Ce portfolio est conçu pour mettre en valeur mes réalisations, mes compétences en développement web et mes expériences professionnelles.
+
+## Exécution du Projet Localement
+
+### Prérequis
+
+- Node.js et npm doivent être installés sur votre machine.
+
+### Étapes
+
+1. Clonez le dépôt depuis GitHub :
+
+   ```bash
+   git clone https://github.com/votre-utilisateur/chikas-portfolio.git
+   ```
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.6.
 
